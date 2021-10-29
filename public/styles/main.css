@@ -1,18 +1,5 @@
-.main .item-1, .main .item-2, .main .item-3 {
-    width: 100%;
-    height: 200px;
-    background-size: contain;
-    background-repeat: no-repeat;
-}
-
-.main .item-1 {
-    background-image: url("../../images/drill.jpg");
-}
-
-.main .item-2 {
-    background-image: url("../../images/map.jpg");
-}
-
-.main .item-3 {
-    background-image: url("../../images/builds.jpg");
+.main .carousel-caption {
+    bottom: unset;
+    right: unset;
+    top: 32%;
 }

@@ -21,3 +21,16 @@ h1, h2{
     width: 100%;
     text-align: center;
 }
+
+.red{
+    color: #dd0b2f;
+}
+
+.button{
+    width: 150px;
+    height: 40px;
+    background-color: #dd0b2f;
+    border: none;
+    color: #ffffff;
+    font-weight: 700;
+}

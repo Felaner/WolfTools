@@ -5,6 +5,7 @@
 @import url('styles/navbar.css');
 @import url('styles/footer.css');
 @import url('styles/media.css');
+@import url('styles/about.css');
 
 .main, .about, .production, .history, .contacts {
     padding-top: 75px;

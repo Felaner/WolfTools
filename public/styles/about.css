@@ -1,0 +1,14 @@
+.about-block{
+
+    font-weight: 600;
+}
+
+.divider{
+    height: 10px;
+    width: 530px;
+    background-color: #dd0b2f;
+}
+
+.description{
+    max-width: 530px;
+}

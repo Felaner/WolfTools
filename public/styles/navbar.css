@@ -1,0 +1,14 @@
+.nav {
+    background-color: #c7c7c7;
+}
+.navbar li {
+    display: inline;
+}
+
+.nav-link a {
+    color: #ffffff;
+}
+
+.nav-link a:hover {
+    color: red;
+}

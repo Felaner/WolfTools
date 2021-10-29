@@ -9,3 +9,7 @@
 .main, .about, .production, .history, .contacts {
     padding-top: 75px;
 }
+
+a, a:hover {
+    text-decoration: none;
+}

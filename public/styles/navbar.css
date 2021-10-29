@@ -1,0 +1,37 @@
+.nav {
+    background-color: #c7c7c7;
+}
+
+.navbar li {
+    display: inline;
+}
+
+.nav-link a {
+    color: #000000;
+    position: relative;
+    padding: 4px 0;
+    text-decoration: none;
+    transition: 0.5s;
+}
+
+.nav-link a::after {
+    position: absolute;
+    content: "";
+    top: 100%;
+    left: 0;
+    width: 100%;
+    height: 3px;
+    background: red;
+    transform: scaleX(0);
+    transform-origin: right;
+    transition: transform 0.5s;
+}
+
+.nav-link a:hover {
+     color: red;
+}
+
+.nav-link a:hover::after {
+     transform: scaleX(1);
+     transform-origin: left;
+}

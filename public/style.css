@@ -5,6 +5,7 @@
 @import url('styles/navbar.css');
 @import url('styles/main.css');
 @import url('styles/about.css');
+@import url('styles/production.css');
 @import url('styles/footer.css');
 @import url('styles/media.css');
 
@@ -14,4 +15,9 @@
 
 a, a:hover {
     text-decoration: none;
+}
+
+h1, h2{
+    width: 100%;
+    text-align: center;
 }

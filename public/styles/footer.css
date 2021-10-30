@@ -1,0 +1,25 @@
+.footer {
+    background-color: #414141;
+}
+.footer .divider {
+    height: 6px;
+    width: 75%;
+    background-color: #dd0b2f;
+}
+
+.footer ul li {
+    text-align: center;
+    font-size: 20px;
+}
+
+.footer p, .footer .nav-link, .footer .nav-link a {
+    color: #ffffff;
+}
+
+.footer .nav-link {
+    padding: 4px 0;
+}
+
+.footer .nav-link a:hover {
+    color: #dd0b2f;
+}

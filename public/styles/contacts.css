@@ -1,0 +1,14 @@
+.contacts {
+    background-color: #414141;
+}
+
+.contacts h2 {
+    color: #ffffff;
+}
+
+.contacts .divider {
+    background-color: black;
+    width: 100%;
+    height: 2px;
+    box-shadow: 0 0 5px 5px rgba(0, 0, 0, .50);
+}

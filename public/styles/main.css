@@ -1,3 +1,7 @@
+.main {
+    padding-top: 79.5px;
+}
+
 .main .carousel-caption {
     height: calc(100% - 40px);
     position: absolute;

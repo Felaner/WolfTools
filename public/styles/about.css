@@ -7,9 +7,9 @@
     font-weight: 600;
 }
 
-.divider{
-    height: 10px;
-    width: 530px;
+.about .divider{
+    height: 6px;
+    width: 75%;
     background-color: #dd0b2f;
 }
 

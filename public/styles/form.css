@@ -1,0 +1,12 @@
+.form-control {
+    border-radius: unset;
+}
+
+.form-control:focus {
+    border-color: #dd0b2f;
+    box-shadow: 0 0 0 .1rem rgba(221, 11, 47,.50);
+}
+
+form textarea {
+    resize: none;
+}

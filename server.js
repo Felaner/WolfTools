@@ -27,6 +27,7 @@ app.set('views', 'views');
 
 app.use(express.static(path.join(__dirname, 'public')));
 app.use('/images', express.static(path.join(__dirname, 'images')));
+app.use('/video', express.static(path.join(__dirname, 'video')));
 app.use(express.urlencoded({extended: true}));
 
 app.use('/', homeRoute);

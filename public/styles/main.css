@@ -1,5 +1,12 @@
 .main .carousel-caption {
-    bottom: unset;
-    right: unset;
-    top: 32%;
+    height: calc(100% - 40px);
+    position: absolute;
+}
+
+.main .carousel-caption div {
+    width: 40%;
+}
+
+.main .button {
+    align-self: center;
 }

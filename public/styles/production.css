@@ -1,3 +1,23 @@
 .production-title{
     margin-bottom: 75px;
 }
+
+.production-block{
+
+}
+
+.adventages, .specifications{
+    list-style: none;
+    margin-top: 35px;
+    padding: 0;
+}
+
+.adventages li, .specifications li{
+    margin-bottom: 15px;
+}
+
+.drills{
+    margin-top: 100px;
+    max-height: 300px;
+    text-align: center;
+}

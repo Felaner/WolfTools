@@ -1,0 +1,12 @@
+.history .nav {
+    z-index: 0;
+    background-color: unset;
+}
+
+.history .nav .nav-item a {
+    color: #000000;
+}
+
+.history .nav .nav-item a.active {
+    color: #dd0b2f;
+}

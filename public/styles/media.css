@@ -1,17 +1,38 @@
 @media (max-width: 1199px) {
-
+    .drills img {
+        height: 270px;
+    }
+    .f-32{
+        font-size: 28px;
+    }
 }
 
 @media (max-width: 767px) {
     .f-26 {
         font-size: 20px;
     }
+
+    .drills{
+        margin-top: 35px;
+    }
 }
 
 @media (max-width: 575px) {
+    .f-46{
+        font-size: 30px;
+    }
 
-}
+    .f-28{
+        font-size: 22px;
+    }
 
-@media (max-width: 380px) {
+    .f-32{
+        font-size: 18px;
+        text-align: center;
+    }
 
+    .f-30{
+        font-size: 24px;
+        text-align: center;
+    }
 }

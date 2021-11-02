@@ -12,6 +12,11 @@
 @import url('styles/calc.css');
 @import url('styles/media.css');
 
+.row{
+    margin-left: 0;
+    margin-right: 0;
+}
+
 a, a:hover {
     text-decoration: none;
 }

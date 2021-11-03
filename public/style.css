@@ -32,12 +32,18 @@ h1, h2{
 }
 
 .button{
+    padding: 6px;
     width: 150px;
     height: 40px;
     background-color: #dd0b2f;
     border: none;
     color: #ffffff;
     font-weight: 700;
+    text-align: center;
+    display: block;
+}
+.button:hover {
+    color: #ffffff;
 }
 
 .anchor {

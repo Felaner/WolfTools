@@ -5,9 +5,31 @@
     .f-32{
         font-size: 28px;
     }
+    .navbar li {
+        font-size: 15px;
+    }
+    .nav-link {
+        padding: .5rem .4rem;
+    }
+    .footer .nav-link {
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 991px) {
+    .navbar {
+        padding: 0;
+    }
+    .navbar li {
+        font-size: 14px;
+    }
 }
 
 @media (max-width: 767px) {
+    #submittedMessageBox {
+        width: 50%;
+    }
+
     .f-26 {
         font-size: 20px;
     }
@@ -15,9 +37,20 @@
     .drills{
         margin-top: 35px;
     }
+
+    .f-24 {
+        font-size: 18px;
+    }
 }
 
 @media (max-width: 575px) {
+    #submittedMessageBox p {
+        font-size: 14px;
+    }
+    h1 {
+        font-size: 24px;
+    }
+
     .f-46{
         font-size: 30px;
     }
@@ -34,5 +67,24 @@
     .f-30{
         font-size: 24px;
         text-align: center;
+    }
+
+    .nav-link a {
+        padding: 0;
+    }
+
+    .carousel .button {
+        width: 80px;
+        height: 20px;
+        font-size: 10px;
+        padding: 2px;
+    }
+
+    .carousel .f-24 {
+        font-size: 14px;
+    }
+
+    .main .carousel-caption div {
+        width: 70%;
     }
 }

@@ -24,3 +24,9 @@
 .drills img {
     height: 360px;
 }
+
+.videos video {
+    object-fit: cover;
+    width: 100%;
+    height: 360px;
+}
